@@ -1,12 +1,14 @@
-[Boppo] is a tablet with 10 light up buttons and a speaker but no screen.
+Boppo is a screen-free tablet with programmable APIs.
 
-You can read the developer documentation at [developer.boppo.com](https://developer.boppo.com).
+The Rust APIs for Boppo are the following:
 
-We are actively working on both a WASM and WebSocket API to write new activities and games in.
+* [boppo_core](https://github.com/boppofun/rust_boppo_core)
+* [boppo_wasm](https://github.com/boppofun/rust_boppo_wasm)
+* [boppo_websocket](https://github.com/boppofun/rust_boppo_websocket)
 
-## Share with Others
+See our [Developer Docs](https://developer.boppo.com) for more info.
 
-Made an activity that you think others will like? Let us know and we will
-consider including it in the global list shipped to all devices.
-
-[boppo]: https://boppo.com
+This crate is currently used as a directory for crates that are part of the
+Boppo Rust ecosystem but is intended to be a project crate once 
+[RFC 3243](https://rust-lang.github.io/rfcs/3243-packages-as-optional-namespaces.html)
+is implemented.
